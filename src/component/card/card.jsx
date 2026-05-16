@@ -1,4 +1,5 @@
 import React from 'react'
+import card from "card-module.css";
 
 const card = () => {
   return (
@@ -6,4 +7,4 @@ const card = () => {
   )
 }
 
-export default card
+export default card;

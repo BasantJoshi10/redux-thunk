@@ -1,11 +1,10 @@
 import React from 'react'
-import style from "navbar-module.css";
+import navbar from '../navbar/navbar-module.css'
 
-const navbar = () => {
+const Navbar = () => {
   return (
-        <nav className="navbar">
+    <nav className="navbar">
         <div className="logo">MyProject</div>
-
         <ul className="nav-links">
             <li><a href="/">Home</a></li>
             <li><a href="/">About</a></li>
@@ -14,10 +13,8 @@ const navbar = () => {
         </ul>
 
         <button className="login-btn">Login</button>
-        </nav>
-  );
-};
+      </nav>
+  )
+}
 
-
-
-export default navbar
+export default Navbar;

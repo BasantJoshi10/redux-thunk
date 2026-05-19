@@ -5,7 +5,7 @@ import navbar from '../navbar/navbar-module.css'
 const Navbar = () => {
     const navigate = useNavigate();
     const handleLogin = () => {
-    navigate('/login');
+    navigate('/login'); //added login page 
   };
   return (
     <nav className="navbar">
